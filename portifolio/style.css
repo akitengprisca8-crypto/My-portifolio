@@ -1,114 +1,131 @@
-body{
-    background-color: rgba(226, 226, 245, 0.973);
-    line-height: 1.6;
-    color: rgb(4, 46, 20);
-     font-family: Georgia, 'Times New Roman', Times, serif; 
+body {
+    background: url(images/porifolio-background.jpg);
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-*{
-
-    box-sizing: border-box;
-    margin: 50px;
+* {
     padding: 0;
     scroll-behavior: smooth;
-    max-width: 100%;
 }
 
 
-.navbar{
-    background-color: #172554;
+.navbar {
+    background-color: #031e74;
     color: rgb(215, 252, 247);
     display: flex;
     align-items: center;
     padding: 18px 8%;
 
     z-index: 1000;
-    justify-content: center;
-    gap: 90px;
+    justify-content: space-between;
     list-style: none;
-    font-size: 16px;
-    border-radius: 400px;
+
 }
 
+.navbar a {
+    color: white;
+    font-size: 18px;
+}
 
-.heading{
-    color: #a91deb;
-    font-size: 25px;
+.navbar a:hover {
+    color: orangered;
+}
+
+.heading {
+    color: rgb(2, 49, 2);
+    font-size: 28px;
     text-align: center;
 }
 
-.Home{
+.Home {
     display: flex;
-    border: 2px solid rgb(130, 0, 124);
-    background: rgb(245, 232, 245);
+    border-radius: 16px;
+    padding: 10px;
+
 }
 
-.Home div{
-flex: 1;
-justify-content: center;
-font-weight: bold;
-padding-bottom: 0px;
-margin:auto;
-}
-
-
-.title{
-    color: #3351d6;
-font-size: 20px;
-text-align: center;
+.Home div {
+    flex: 1;
+    justify-content: center;
+    font-weight: bold;
+    padding-bottom: 0px;
+    margin: auto;
+    gap: 40px;
 }
 
 
-img{
+.title {
+    color: rgb(2, 49, 2);
+    font-size: 28px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.text {
+    font-size: 22px;
+    color: blue;
+}
+
+
+img {
     border-radius: 40%;
-    width:300px;
+    width: 300px;
 
     height: auto;
     object-fit: cover;
     object-position: center;
     margin-top: 0;
-    border:1px solid black;
+    border: 1px solid rgb(6, 197, 6);
 
 }
-.Skills{
+
+.Skills {
     list-style: none;
-    display:flex;
-    justify-content:center;
+    display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
 
     background-color: rgb(98, 134, 231);
-    color:#042b11; 
-    font-weight:bold;
-    padding:4px 20px;
-    border-radius:400px;
+    color: #042b11;
+    font-weight: bold;
+    padding: 4px 20px;
+    border-radius: 400px;
     text-align: center;
 }
 
-footer{
-    background-color:#172554;
-    color:rgb(236, 236, 247);
+footer {
+    background-color: #027696;
+    color: rgb(236, 236, 247);
     text-align: center;
-    padding:20px;
-    border-radius: 20px;
+    padding: 20px;
+
 
 }
-.About{
+
+.About {
     text-align: center;
     font-size: 20px;
 }
 
-.button{
+.About a {
+    font-size: 24px;
+    color: rgb(5, 73, 98);
+    font-weight: 900;
+}
+
+.button {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    margin: 20px 0;
+
     justify-content: center;
     font-weight: bold;
-    
+
 }
-.my-button{
-    background-color: rgb(52, 87, 65);
+
+.my-button {
+    background-color: rgb(26, 77, 90);
     color: white;
     padding: 15px 30px;
     font-size: 20px;
@@ -117,28 +134,29 @@ footer{
     border-radius: 10px;
     cursor: pointer;
     transition: 0.3s;
-    margin: 20px ;
+    margin: 0 auto;
 }
 
- .my-button:hover{
+.my-button:hover {
     background-color: orangered;
-    transform:scale(1.1)
- }
+    transform: scale(1.1)
+}
 
- button{
-    background:blue;
-    font-size:20px;
-    margin:20px auto;
-    padding:15px 30px;
+button {
+    background: blue;
+    font-size: 20px;
+    margin: 20px auto;
+    padding: 15px 30px;
 
-    color:white;
-    border:none;
-    border-radius:10px;
-    cursor:pointer;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
     gap: 20px;
-  
- }
- .email{
+
+}
+
+.email {
     color: #07a77f;
     text-align: center;
- }
+}
