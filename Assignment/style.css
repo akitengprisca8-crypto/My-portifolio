@@ -41,6 +41,10 @@ a {
    color: blue;
 }
 
+a:hover {
+   color: orangered;
+}
+
 h1 {
    text-align: center;
 }
@@ -104,6 +108,10 @@ h1 {
    width: 100px;
    color: white;
    font-size: 18px;
+}
+
+.contact-button:hover {
+   color: rgb(43, 233, 22);
 }
 
 .contact {
