@@ -156,7 +156,8 @@ button {
 }
 
 .email {
-    color: #07a77f;
+    color: blue;
     text-align: center;
     font-size: 18px;
+    font-weight: 800;
 }
