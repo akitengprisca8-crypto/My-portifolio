@@ -78,28 +78,46 @@ h1 {
    font-size: 18px;
 }
 
+.list {
+   display: flex;
+   flex-direction: row;
+   flex: 1;
+   justify-content: space-between;
+   padding: 8px;
+}
+
+.skills {
+   line-height: 0.6;
+}
+
 .container {
    display: grid;
    grid-template-columns: repeat(3, 1fr);
-   gap: 20px;
    padding-top: 10px;
+   flex-direction: row;
+
+   justify-content: space-between;
+   align-items: center;
+   gap: 20px;
 
 }
 
 .project-card {
    box-sizing: border-box;
-   border: 2px solid rgb(11, 11, 23);
+   border: 2px solid rgb(8, 8, 152);
    padding: 16px;
-   border-radius: 20px;
+   border-radius: 40px;
    text-align: center;
+
+
    background: linear-gradient(130deg, #00c9ff, rgb(248, 248, 248));
 
+   font-size: 24px;
+   line-height: 1;
+
+
 }
 
-.project-card p {
-   font-size: 20px;
-
-}
 
 .title {
    text-align: center;
