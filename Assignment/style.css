@@ -1,12 +1,12 @@
 body {
    margin: 10px;
-   background: whitesmoke;
+   background: whitesmoke
 }
 
 .header {
    display: flex;
    padding: 20px;
-   background: peachpuff;
+   background: linear-gradient(150deg, #6a00ff, #00c9ff);
 
    position: sticky;
    top: 0;
@@ -51,6 +51,7 @@ a:hover {
 
 h1 {
    text-align: center;
+   color: blue;
 }
 
 .Home,
@@ -70,7 +71,7 @@ h1 {
 }
 
 .footer {
-   background: rgb(26, 26, 137);
+   background: rgb(3, 3, 161);
    padding: 30px;
    color: white;
    text-align: end;
@@ -82,6 +83,7 @@ h1 {
    grid-template-columns: repeat(3, 1fr);
    gap: 20px;
    padding-top: 10px;
+
 }
 
 .project-card {
@@ -90,7 +92,8 @@ h1 {
    padding: 16px;
    border-radius: 20px;
    text-align: center;
-   background: rgb(253, 245, 238);
+   background: linear-gradient(130deg, #00c9ff, rgb(248, 248, 248));
+
 }
 
 .project-card p {
@@ -102,6 +105,7 @@ h1 {
    text-align: center;
    font-size: 28px;
    font-weight: 900;
+   color: blue;
 }
 
 .contact-button {
