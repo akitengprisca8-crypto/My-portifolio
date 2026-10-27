@@ -1,20 +1,19 @@
 body {
-   margin: 10px;
-   background: whitesmoke
+   margin: auto;
+   background: repeating-linear-gradient(270deg, #00c9ff, peachpuff);
+
 }
 
 .header {
    display: flex;
    padding: 20px;
-   background: linear-gradient(150deg, #6a00ff, #00c9ff);
+   background: linear-gradient(150deg, #00c9ff, rgb(12, 12, 248));
 
    position: sticky;
    top: 0;
    z-index: 1000;
    scroll-margin-top: 80px;
    scroll-behavior: smooth;
-
-
 
 }
 
@@ -42,7 +41,7 @@ a {
    text-decoration: none;
    font-weight: 900;
    font-size: 20px;
-   color: blue;
+   color: white;
 }
 
 a:hover {
@@ -54,10 +53,14 @@ h1 {
    color: blue;
 }
 
-.Home,
-.About {
-   font-size: 22px;
+h2 {
+   color: blue;
+}
 
+.home,
+.about {
+   font-size: 22px;
+   margin: 10px;
 }
 
 .profile img {
@@ -84,6 +87,7 @@ h1 {
    flex: 1;
    justify-content: space-between;
    padding: 8px;
+
 }
 
 .skills {
@@ -127,7 +131,7 @@ h1 {
 }
 
 .contact-button {
-   background: rgb(70, 70, 234);
+   background: blue;
    padding: 10px;
    border-radius: 14px;
    cursor: pointer;
