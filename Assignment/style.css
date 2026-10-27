@@ -48,14 +48,11 @@ a:hover {
    color: orangered;
 }
 
-h1 {
+h2 {
    text-align: center;
    color: blue;
 }
 
-h2 {
-   color: blue;
-}
 
 .home,
 .about {
